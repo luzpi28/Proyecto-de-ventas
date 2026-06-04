@@ -8,9 +8,9 @@ Herramientas utilizadas: Python y Power Bi
 2. Python-Limpieza de Datos
 3. Pyhton-Análisis Exploratorio de Datos
 4. PowerBi-Dashboard
+5. [Dataset](#Estructura-del-Proyecto)
 
-
-**1.Dataset**
+**1. Dataset**
 
 Este dataset simula un historial de 10,000 ventas de productos lácteos realizadas a lo largo del año 2024, cumpliendo requisitos de trazabilidad comercial en supermercados de cinco estados de Estados Unidos.
 
