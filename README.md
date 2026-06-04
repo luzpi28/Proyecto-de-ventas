@@ -4,10 +4,10 @@
 Herramientas utilizadas: Python y Power Bi
 
 **Estructura del Proyecto**
-1.[Dataset](#Estructura-del-Proyecto)
-2. Python-Limpieza de Datos
-3. Pyhton-Análisis Exploratorio de Datos
-4. PowerBi-Dashboard
+1.[Dataset](#Estructura-del-Proyecto)<br>
+2. [Python-Limpieza de Datos](#Estructura-del-Proyecto)<br>
+3. Pyhton-Análisis Exploratorio de Datos<br>
+4. PowerBi-Dashboard<br>
 
 
 **1. Dataset**
