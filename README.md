@@ -3,11 +3,11 @@
 
 Herramientas utilizadas: Python y Power Bi
 
-**Estructura del Proyecto**
-1.[Dataset](#Estructura-del-Proyecto)<br>
+**Estructura del Proyecto**<br>
+1.¨[Dataset](#Estructura-del-Proyecto)<br>
 2. [Python-Limpieza de Datos](#Estructura-del-Proyecto)<br>
-3. Pyhton-Análisis Exploratorio de Datos<br>
-4. PowerBi-Dashboard<br>
+3. [Pyhton-Análisis Exploratorio de Datos](#Estructura-del-Proyecto)<br>
+4. [PowerBi-Dashboard](#Estructura-del-Proyecto)<br>
 
 
 **1. Dataset**
@@ -17,6 +17,6 @@ Este dataset simula un historial de 10,000 ventas de productos lácteos realizad
 Está diseñado para análisis comerciales, de comportamiento de compra y de desempeño de productos/líneas de negocio.
 
 Podemos encontrar el datasets en el siguiente enlace: https://www.kaggle.com/datasets/hectorconde/dataset-ventas-lacteos-2024
-
+<br>
 
 **2. Python-Limpieza de Datos**
