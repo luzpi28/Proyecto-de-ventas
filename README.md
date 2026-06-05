@@ -1,5 +1,5 @@
 # Proyecto-de-ventas
-**Proyecto de Ventas de Lacteos 2024.**
+**Proyecto de Ventas de Lácteos 2024.**
 
 Herramientas utilizadas: Python y Power Bi
 
@@ -29,5 +29,8 @@ Podemos encontrar el datasets en el siguiente enlace: https://www.kaggle.com/dat
 <br>Analizaremos el dataset.
 
 
+<br>**PowerBi-Dashboard**
+<br><br>
+<img width="1100" height="601" alt="Ventas-lácteos-2024" src="https://github.com/user-attachments/assets/bf4999d6-ae29-4c72-a89a-c7b7cdf1bc3e" />
 
 
