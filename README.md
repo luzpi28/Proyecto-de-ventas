@@ -6,7 +6,7 @@ Herramientas utilizadas: Python y Power Bi
 **Estructura del Proyecto**<br>
 1. [Dataset](#Estructura-del-Proyecto)<br>
 2. [Python-Limpieza de Datos](#Estructura-del-Proyecto)<br>
-3. [Pyhton-Análisis Exploratorio de Datos](#Estructura-del-Proyecto)<br>
+3. [Python-Análisis Exploratorio de Datos](#Estructura-del-Proyecto)<br>
 4. [PowerBi-Dashboard](#Estructura-del-Proyecto)<br>
 
 
@@ -25,7 +25,7 @@ Podemos encontrar el datasets en el siguiente enlace: https://www.kaggle.com/dat
 <img width="1248" height="436" alt="Captura-proy-01" src="https://github.com/user-attachments/assets/932a75b5-1d49-477d-ba2c-d6052b6b363a" />
 
 
-<br>**3. Pyhton-Análisis Exploratorio de Datos**
+<br>**3. Python-Análisis Exploratorio de Datos**
 <br>Analizaremos el dataset.
 
 
