@@ -6,8 +6,7 @@ Herramientas utilizadas: Python y Power Bi
 **Estructura del Proyecto**<br>
 1. [Dataset](#Estructura-del-Proyecto)<br>
 2. [Python-Limpieza de Datos](#Estructura-del-Proyecto)<br>
-3. [Python-Análisis Exploratorio de Datos](#Estructura-del-Proyecto)<br>
-4. [PowerBi-Dashboard](#Estructura-del-Proyecto)<br>
+3. [PowerBi-Dashboard](#Estructura-del-Proyecto)<br>
 
 
 **1. Dataset**
@@ -25,11 +24,7 @@ Podemos encontrar el datasets en el siguiente enlace: https://www.kaggle.com/dat
 <img width="1248" height="436" alt="Captura-proy-01" src="https://github.com/user-attachments/assets/932a75b5-1d49-477d-ba2c-d6052b6b363a" />
 
 
-<br>**3. Python-Análisis Exploratorio de Datos**
-<br>Analizaremos el dataset.
-
-
-<br>**4. PowerBi-Dashboard**
+<br>**3. PowerBi-Dashboard**
 <br><br>
 <img width="1100" height="601" alt="Ventas-lácteos-2024" src="https://github.com/user-attachments/assets/bf4999d6-ae29-4c72-a89a-c7b7cdf1bc3e" />
 
