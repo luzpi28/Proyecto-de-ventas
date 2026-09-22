@@ -42,10 +42,10 @@ Podemos encontrar el datasets en el siguiente enlace: https://www.kaggle.com/dat
 
 <br>**4. SQL-Consultas de negocio**
 <br>
+<br>
 **Pregunta #1: ¿Qué meses registraron el mejor desempeño comercial durante el 2024?**
 <br>Encontré los meses que registraron mejor desempeño utilizando las funciones ROUND,SUM y GROUP BY.
-<br>
-```
+```sql
 SELECT TOP 5
 	   DATENAME(month, Fecha) AS Mes,
 	   ROUND(SUM([Valor total (USD)]),2) AS Valor_total
@@ -54,11 +54,12 @@ GROUP BY Month(Fecha),DATENAME(month, Fecha)
 ORDER BY Valor_total DESC
 ;
 ```
-<img width="296" height="229" alt="image" src="https://github.com/user-attachments/assets/5248fdf8-002a-4f10-94db-724fa509a944" />
+<img width="250" height="229" alt="image" src="https://github.com/user-attachments/assets/5248fdf8-002a-4f10-94db-724fa509a944" />
 <br>
+
+
 **Pregunta #2.-¿A cuánto ascendieron las ventas totales registradas durante el mes de diciembre del 2024?**
-<br>
-```
+```sql
 SELECT DATENAME(month, Fecha) AS Mes,
 	   ROUND(SUM([Valor total (USD)]),2) AS Valor_total
 FROM dbo.dataset_ventas_lacteos_2024
@@ -66,11 +67,11 @@ WHERE MONTH(Fecha) = 12
 GROUP BY Month(Fecha),DATENAME(month, Fecha)
 ;
 ```
-<img width="346" height="111" alt="image" src="https://github.com/user-attachments/assets/7b48c8fa-8c6f-4170-a19c-c7391441ab1c" />
+<img width="250" height="111" alt="image" src="https://github.com/user-attachments/assets/7b48c8fa-8c6f-4170-a19c-c7391441ab1c" />
 <br>
+
 **Pregunta #3.-¿Qué categoría genera más ingresos?**
-<br>
-```
+```sql
 SELECT TOP 1
        Categoria,
 	   ROUND(SUM([Valor total (USD)]),2) AS Valor_total
@@ -79,11 +80,12 @@ GROUP BY Categoria
 ORDER BY Valor_total DESC
 ;
 ```
-<img width="286" height="87" alt="image" src="https://github.com/user-attachments/assets/4dec0d57-9848-4964-8099-22c246fd5584" />
+<img width="230" height="70" alt="image" src="https://github.com/user-attachments/assets/4dec0d57-9848-4964-8099-22c246fd5584" />
 <br>
+
+
 **Pregunta #4.-¿Qué porcentaje de las ventas totales representa cada categoría?**
-<br>
-```
+```sql
 SELECT 
     Categoria,
     ROUND(SUM([Valor total (USD)]),2) AS Venta_Total,
@@ -95,11 +97,12 @@ GROUP BY Categoria
 ORDER BY Porcentaje_Ventas DESC
 ;
 ```
-<img width="431" height="211" alt="image" src="https://github.com/user-attachments/assets/5463e1fc-e8d3-4de1-9eed-dda61fca4570" />
+<img width="280" height="211" alt="image" src="https://github.com/user-attachments/assets/5463e1fc-e8d3-4de1-9eed-dda61fca4570" />
 <br>
+<br>
+
 **Pregunta #5.-¿Cuál es la categoría más vendida en el estado de Massachusetts?**
-<br>
-```
+```sql
 SELECT TOP 1
        Estado,
        Categoria,
@@ -110,17 +113,21 @@ GROUP BY Estado, Categoria
 ORDER BY SUM(TRY_CAST([Cantidad_comprada] AS INT)) DESC
 ;
 ```
-<img width="503" height="84" alt="image" src="https://github.com/user-attachments/assets/61acb680-ccfe-4965-b30a-037a40ba7183" />
+<img width="280" height="84" alt="image" src="https://github.com/user-attachments/assets/61acb680-ccfe-4965-b30a-037a40ba7183" />
 <br>
+<br>
+
 **Pregunta #6.-¿Cuántos productos distintos de lácteos se han vendido en los supermercados?**
-<br>
-```
+```sql
 SELECT COUNT (DISTINCT producto) AS Productos_únicos
 FROM dbo.dataset_ventas_lacteos_2024
 ;
-<img width="205" height="77" alt="image" src="https://github.com/user-attachments/assets/f223f4c9-7854-4e4a-b0e3-31e2e8b043cc" />
+```
+<img width="180" height="77" alt="image" src="https://github.com/user-attachments/assets/f223f4c9-7854-4e4a-b0e3-31e2e8b043cc" />
 <br>
-**Pregunta #7.-
+
+
+**Pregunta #7.-**
 
 
 
